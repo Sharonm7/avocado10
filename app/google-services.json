@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "797492330970",
+    "firebase_url": "https://avocado1-a0c54.firebaseio.com",
+    "project_id": "avocado1-a0c54",
+    "storage_bucket": "avocado1-a0c54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797492330970:android:cc9b9c863cdf51aa",
+        "android_client_info": {
+          "package_name": "com.avocado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI6ryXKPYEDv2ZrQtXja9r0R0A84Ijt2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797492330970:android:5673cad42da81758",
+        "android_client_info": {
+          "package_name": "com.example.avocado1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797492330970-hsbljvgm69gn6vq7g919kc7q1rl6aukd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avocado1",
+            "certificate_hash": "51688e1a2895f1008b4ed715ce9d847a8a1c9b7f"
+          }
+        },
+        {
+          "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI6ryXKPYEDv2ZrQtXja9r0R0A84Ijt2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797492330970:android:0093436abdb82fd4",
+        "android_client_info": {
+          "package_name": "com.example.testavocado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797492330970-9u4em33udmdd078echd3vhoho56cbtl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testavocado",
+            "certificate_hash": "51688e1a2895f1008b4ed715ce9d847a8a1c9b7f"
+          }
+        },
+        {
+          "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI6ryXKPYEDv2ZrQtXja9r0R0A84Ijt2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797492330970-lqgvi7tii0o2ooe1gunbmgs7h6bda28v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

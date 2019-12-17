@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MovieDetailActivity"
+    tools:showIn="@layout/activity_movie_detail"
+    android:background="#84ada4"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/contentmoviedetail"
+                >
+
+                <ImageView
+                    android:id="@+id/moviePoster"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:src="@drawable/movieimage"/>
+<!--                    app:srcCompat="@drawable/movieimage"-->
+<!--                    />-->
+
+                <TextView
+                    android:id="@+id/movieTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:text="TextView"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:id="@+id/movieMetaData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/movieOverview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/movieVoteAvg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/movieRelease_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:text="TextView" />
+
+                <Button
+                    android:id="@+id/followBtn"
+                    android:text="עקוב"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp"
+                    android:layout_width="100dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/follow_btn_shape"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    />
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</LinearLayout>

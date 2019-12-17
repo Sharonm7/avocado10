@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:id="@+id/createEventLayout"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dce2e6"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/createEventTitle" />
+
+                <TextView
+                    android:id="@+id/eventTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="10"
+                android:background="#dce2e6"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/createEventDesc"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/eventDes"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:lines="1"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dce2e6"
+                android:padding="10dp"
+                android:weightSum="10">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="10"
+                android:background="#dce2e6"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="@string/createEventAttendee"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/eventAttendee"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:inputType="textEmailAddress"
+
+                    android:imeOptions="actionNext"
+
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dce2e6"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/startAt"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/createEventStart" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+<!--                    <DatePicker-->
+<!--                        android:id="@+id/startDate"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="4"-->
+<!--                        android:calendarViewShown="false"-->
+
+<!--                        android:datePickerMode="spinner" />-->
+
+                    <TimePicker
+                        android:id="@+id/startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:timePickerMode="spinner" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="#dce2e6"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/endAt"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:text="@string/createEventEnd"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content">
+
+                    <TimePicker
+                        android:id="@+id/endTime"
+                        android:timePickerMode="spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="10"
+                android:background="#89bcd4"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:maxLines="1"
+                    android:id="@+id/createEvent"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:text="הכנס ללוח השנה"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/cancelEvent"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:text="ביטול"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

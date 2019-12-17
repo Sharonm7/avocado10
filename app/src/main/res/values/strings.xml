@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AVOCADO</string>
+    <string name="Calendar_API_KEY">AIzaSyDUGzt27EWNyosxT0qr-0X_awsslSfBhEM</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Avocado</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_test">test</string>
+    <string name="backToMain">Back</string>
+    <string name="eventTitle">שם הסרט או הסדרה</string>
+    <string name="eventDesc">תיאור</string>
+    <string name="eventAttendee">כתובת מייל של לוח השנה</string>
+    <string name="eventStart">תאריך </string>
+    <string name="eventEnd">ושעה</string>
+    <string name="eventLocation">Location</string>
+
+    <string name="createEventTitle">שם הסרט או הסדרה</string>
+    <string name="createEventDesc">תאריך יציאה</string>
+    <string name="createEventAttendee">כתובת מייל של לוח השנה</string>
+    <string name="createEventStart">מתחיל ב:</string>
+    <string name="createEventStartDate">תאריך</string>
+    <string name="createEventStartTime">שעה</string>
+
+    <string name="createEventEnd">מסתיים ב:</string>
+    <string name="createEventEndDate">תאריך</string>
+    <string name="createEventEndTime">שעה</string>
+
+
+    <string name="createEventLocation">Location</string>
+</resources>

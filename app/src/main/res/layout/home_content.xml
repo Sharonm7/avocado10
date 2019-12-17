@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/homeLayout"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/home_toolbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:background="#84ada4">
+
+        <TextView
+            android:id="@+id/helloUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:fontFamily="@font/aclonica"
+            android:textSize="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/selectedGenresText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:text="הזאנרים שבחרת:"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"/>
+
+        <TextView
+            android:id="@+id/genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text=""
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp">
+
+
+
+        <LinearLayout
+        android:id="@+id/followingMoviesLayout"
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+            android:background="#bcdfc1">
+
+            <TextView
+                android:id="@+id/textFollowingMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="התכן שלך:"
+                android:fontFamily="@font/aclonica"
+                android:textSize="30dp"
+                android:gravity="center" />
+
+
+
+
+            <!--                <TextView-->
+<!--                    android:id="@+id/movieTitle"-->
+<!--                    android:layout_marginTop="150dp"-->
+<!--                    android:text=""-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:visibility="visible"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/moviePoster"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginTop="150dp"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:gravity="center"-->
+        <!--            app:srcCompat="@drawable/baseline_movie_black_48" />-->
+
+
+
+
+            <LinearLayout
+                android:id="@+id/followingTvShowsLayout"
+                android:layout_width="match_parent"
+                android:layout_alignBottom="@+id/linearLayout"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/removefollow"
+                    android:text="הסר"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp"
+                    android:layout_width="100dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/follow_btn_shape"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:visibility="gone"/>
+
+
+
+
+            <Button
+                    android:id="@+id/addToCal"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:textAllCaps="false"
+                    android:text="follow"
+
+                    android:visibility="gone"/>
+
+
+
+   </LinearLayout>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/followingTvshows"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="150dp"-->
+    <!--            android:text=""-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            android:visibility="gone"/>-->
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

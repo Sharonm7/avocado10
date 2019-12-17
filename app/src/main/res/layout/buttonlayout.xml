@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/button_layout"
+
+        android:text="הסר"
+        android:textColor="#FFF2F8"
+        android:textSize="30sp"
+
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:background="@drawable/follow_btn_shape"
+        android:shadowColor="#1EA855"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+</LinearLayout>
